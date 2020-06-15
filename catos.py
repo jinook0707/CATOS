@@ -1,7 +1,7 @@
 # coding: UTF-8
 
 '''
-CATOS v.1.0.0
+CATOS
 (Computer Aided Training/Observing System for animal behavior experiments) 
 
 jinook.oh@univie.ac.at
@@ -68,6 +68,7 @@ for mod in MODS:
     else:
         flagMods[mod] = False 
 
+__version__ = "1.1.0"
 DEBUG = False 
 
 # ======================================================
